@@ -29,7 +29,14 @@ public class Practice17 {
 
     }
 
-    // 遍历大树
+    /**
+     * 遍历大树
+     * 
+     * @time O(n)
+     * @param root1
+     * @param root2
+     * @return
+     */
     private static boolean HasSubtree(TreeNode root1, TreeNode root2) {
         if (root1 == null || root2 == null) {
             return false;
