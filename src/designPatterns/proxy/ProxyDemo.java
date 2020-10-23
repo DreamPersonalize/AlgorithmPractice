@@ -33,7 +33,7 @@ public class ProxyDemo {
     private static void dynamicProxy(Subject realsubject) {
         // 创建处理调用对象
         ProxyHandler handler = new ProxyHandler(realsubject);
-        // 生成动态代理对象
+        // 生成动态代理对象实例
         Subject proxySubject = (Subject)Proxy.newProxyInstance(RealSubject.class.getClassLoader(),
             RealSubject.class.getInterfaces(), handler);
 

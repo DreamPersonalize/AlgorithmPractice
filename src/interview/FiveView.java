@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 第一次面试--第五道算法
- * @author Perso
+ * @author Zhang
  * @date 2020/07/01
  * @Description
  */
@@ -17,6 +17,12 @@ public class FiveView {
         System.out.println(s1 + " + " + s2 + " = " + romanAddtion(s1, s2));
     }
 
+    /**
+     * 罗马数相加方法
+     * @param s1
+     * @param s2
+     * @return
+     */
     private static String romanAddtion(String s1, String s2) {
         System.out.println(romanToInt(s1));
         System.out.println(romanToInt(s2));
@@ -28,7 +34,7 @@ public class FiveView {
     }
 
     /**
-     * 罗马转汉字 
+     * 罗马转数字 
      * 1 创建一个Map建立罗马符号和数字映射表 
      * 2 创建一个Map建立特殊情况字符要处理的罗马符号 
      * 3 for循环根据输入从映射表中获取数字求和就可以了 

@@ -13,8 +13,8 @@ public class OneView {
         int a = 10;
         int b = 20;
         swap2(a, b);
-        // System.out.println(a);
-        // System.out.println(b);
+        System.out.println(a);
+        System.out.println(b);
 
     }
 
